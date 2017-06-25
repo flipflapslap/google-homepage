@@ -66,3 +66,28 @@ button[type=button]:hover {
 	color: #000;
 	border: 1px solid grey;
 }
+
+.foot {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background: #f3f3f3;
+	word-spacing: 7px;
+}
+
+.foot_left {
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	margin-top: 11px;
+}
+
+.foot_right {
+	display: inline-block;
+	float: right;
+	padding right: 10px;
+	margin-top: 11px;
+}
